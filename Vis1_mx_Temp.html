@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherPy Visualizatioin Temperature</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand box box-1" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/index.html"><h2>Latitude</h2></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto my-2 my-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis1_mx_Temp.html">Max Temperature</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis2_Humid.html">Humidity</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis3_Cloud.html">Cloudiness</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis4_WindSp.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Comparison.html">Comparison </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Data.html">Data</a>
+        </li>  
+      </ul>    
+    </div>
+  </nav>
+
+  <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="white">
+              <p><h1>Max Temperature</h1></p>
+              <hr>
+              <br/>
+              <a target="_blank" href="Resources/assets/images/Fig1.png">
+                <img src="Resources/assets/images/Fig1.png" alt="Latitude VS Max Temperature" width="85%" height="85%"/>
+              </a>             
+              <p>As expected, the weather becomes significantly warmer as one approaches the Equator (0° latitude).  More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere.  This may be due to the tilt of hte earth at the time of the year this data was gathered.</p>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="white">
+              <p><h1>Visualizations</h1></p>
+                <hr>
+                <br/> 
+                
+                <a href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis1_mx_Temp.html"> 
+                    <img class="img-responsive" src="Resources/assets/images/Fig1.png" alt="Latitude VS Max Temperature" width="45%" height="45%"/>
+                    </a>  
+                
+                <a href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis2_Humid.html">        
+                    <img class="img-responsive" src="Resources/assets/images/Fig2.png" alt="Latitude VS Humidity" width="45%" height="45%"/>
+                    </a>
+                
+                <a href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis3_Cloud.html">          
+                    <img class="img-responsive" src="Resources/assets/images/Fig3.png" alt="Latitude VS Cloudiness" width="45%" height="45%"/>
+                    </a>
+                  
+                  <a href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis4_WindSp.html">       
+                    <img class="img-responsive" src="Resources/assets/images/Fig4.png" alt="Latitude VS Wind Speed" width="45%" height="45%"/>
+                    </a>
+                                                 
+              </div>
+            </div>      
+          </div>
+        </div>        
+    
+  </body>
+  
+  </html>
