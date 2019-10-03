@@ -1,11 +1,7 @@
-/*.navbar {
-  padding: 10px;
-  background: #46c7c7;
-  color: white;
-}*/
 
 h1 {
     color: #46c7c7;
+    font-size: 35px;
   }
 
 h2 {
@@ -25,10 +21,34 @@ h3 {
 }
 body {background: #b3b2b2;}
 
-.white{background: white;}
-
+.white{background: white;
+ }
+.colborder{
+  border: 5px solid #b3b2b2;
+}
 .table thead th {
   text-align: left;
 }
 
+.img-responsive{
+  width:24% ;
+  
+}
 
+@media  (min-width: 1200px) {
+
+  .img-responsive{
+    width:44% ;
+    
+  }
+
+}
+
+@media  (max-width: 990px) {
+
+  .img-responsive{
+    width:44% ;
+    
+  }
+
+}

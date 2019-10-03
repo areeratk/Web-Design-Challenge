@@ -6,7 +6,8 @@
   <title>WeatherPy Visualizatioin Dashboard</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -21,7 +22,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/index.html">
+    <a class="navbar-brand" href="index.html">
       <h2>Latitude</h2>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -37,24 +38,22 @@
             Plots
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis1_mx_Temp.html">Max
+            <a class="dropdown-item" href="Vis1_mx_Temp.html">Max
               Temperature</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item"
-              href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis2_Humid.html">Humidity</a>
+            <a class="dropdown-item" href="Vis2_Humid.html">Humidity</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item"
-              href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis3_Cloud.html">Cloudiness</a>
+            <a class="dropdown-item" href="Vis3_Cloud.html">Cloudiness</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis4_WindSp.html">Wind
+            <a class="dropdown-item" href="Vis4_WindSp.html">Wind
               Speed</a>
           </div>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Comparison.html">Comparison </a>
+          <a class="nav-link" href="Comparison.html">Comparison </a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Data.html">Data</a>
+          <a class="nav-link" href="Data.html">Data</a>
         </li>
       </ul>
     </div>
@@ -62,7 +61,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-12 col-lg-12 col-xl-7 white colborder">
         <div class="white">
           <p>
             <h1>Summary: Lattitude vs. X</h1>
@@ -70,7 +69,7 @@
           <hr>
           <br />
           <a target="_blank" href="Resources/assets/images/Fig1.png">
-            <img src="Resources/assets/images/Fig1.png" alt="Latitude VS Max Temperature" width="55%" height="55%"
+            <img src="Resources/assets/images/Fig1.png" alt="Latitude VS Max Temperature" width="50%" height="55%"
               ALIGN="left" />
           </a>
           <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
@@ -83,33 +82,38 @@
             any trends and correlations witnessed.</p>
         </div>
       </div>
-      <div class="col-md-5">
-          <div class="white">
-            <p><h1>Visualizations</h1></p>
-              <hr>
-              <br/> 
-              
-              <a href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis1_mx_Temp.html"> 
-                  <img class="img-responsive" src="Resources/assets/images/Fig1.png" alt="Latitude VS Max Temperature" width="45%" height="45%"/>
-                  </a>  
-              
-              <a href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis2_Humid.html">        
-                  <img class="img-responsive" src="Resources/assets/images/Fig2.png" alt="Latitude VS Humidity" width="45%" height="45%"/>
-                  </a>
-              
-              <a href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis3_Cloud.html">          
-                  <img class="img-responsive" src="Resources/assets/images/Fig3.png" alt="Latitude VS Cloudiness" width="45%" height="45%"/>
-                  </a>
-                
-                <a href="file:///C:/Users/areer/Desktop/Web-Design-Challenge/Vis4_WindSp.html">       
-                  <img class="img-responsive" src="Resources/assets/images/Fig4.png" alt="Latitude VS Wind Speed" width="45%" height="45%"/>
-                  </a>
-                                               
-            </div>
-          </div>      
+     
+      <div class="col-md-12 col-lg-12 col-xl-5 white colborder">
+        <div class=" white">
+
+          <p>
+            <h1>Visualizations</h1>
+          </p>
+          <hr>
+          <br />
         </div>
-      </div>       
-  
+
+        <a href="Vis1_mx_Temp.html">
+          <img class="img-responsive" src="Resources/assets/images/Fig1.png" alt="Latitude VS Max Temperature"/>
+        </a>
+
+        <a href="Vis2_Humid.html">
+          <img class="img-responsive" src="Resources/assets/images/Fig2.png" alt="Latitude VS Humidity"/>
+        </a>
+
+        <a href="Vis3_Cloud.html">
+          <img class="img-responsive" src="Resources/assets/images/Fig3.png" alt="Latitude VS Cloudiness"/>
+        </a>
+
+        <a href="Vis4_WindSp.html">
+          <img class="img-responsive" src="Resources/assets/images/Fig4.png" alt="Latitude VS Wind Speed"/>
+        </a>
+
+
+      </div>
+    </div>
+  </div>
+ 
 </body>
 
 </html>
